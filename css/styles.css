@@ -119,10 +119,11 @@ img {
 .nav-bar {
   display: flex;
   gap: 40px;
-  margin: 24px 0;
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -140,10 +141,11 @@ img {
 .contact-bar {
   display: flex;
   gap: 40px;
-  margin: 24px 0;
 }
 
 .contact-link {
+  display: block;
+  padding: 24px 0;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
