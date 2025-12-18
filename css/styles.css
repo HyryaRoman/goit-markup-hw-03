@@ -263,6 +263,19 @@ img {
   color: #f4f4fd;
 }
 
+.page-footer__content {
+  padding: 100px 15px;
+}
+
+.page-footer__logo {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.page-footer__text {
+  max-width: 264px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
