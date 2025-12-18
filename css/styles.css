@@ -190,6 +190,7 @@ img {
 
 .section-title {
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .feature-list {
@@ -205,13 +206,32 @@ img {
   margin-bottom: 8px;
 }
 
-.team-member-list > li {
+.team-member-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-member {
+  width: calc((100% - 24px * 3) / 4);
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-member__photo {
+  width: 100%;
+}
+
+.team-member__plague {
+  padding: 32px 0;
 }
 
 .team-member__name,
 .team-member__position {
   text-align: center;
+}
+
+.team-member__name {
+  margin-bottom: 8px;
 }
 
 .page-footer {
