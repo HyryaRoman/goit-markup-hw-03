@@ -82,11 +82,14 @@ img {
   margin-right: auto;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-bar {
   display: flex;
   align-items: center;
   gap: 76px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-bar__nav {
