@@ -26,6 +26,16 @@ button:focus {
   background-color: #404BBF;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
 h1, h2, h3 {
   letter-spacing: 0.02em;
   color: #2E2F42;
@@ -51,6 +61,18 @@ h3 {
 
 p {
   letter-spacing: 0.02em;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
