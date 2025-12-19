@@ -168,12 +168,10 @@ img {
   padding: 188px 0;
 }
 
-.hero-banner {
-  max-width: 526px;
-}
-
 .hero-banner__title {
-  margin-bottom: 48px;
+  display: block;
+  max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .hero-banner__button {
